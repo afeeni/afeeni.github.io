@@ -12,18 +12,19 @@ const useStyles = makeStyles((theme) => ({
     },
     menuButton: {
       marginRight: theme.spacing(2),
-      color: 'orange',
-    },
-    title: {
-      flexGrow: 1,
       color: 'pink',
-      textAlign: 'center',
+      fontSize: '500px'
     },
     appBar: {
-      backgroundColor: '#ffffff',
+      backgroundColor: 'rgba(0,0,0, 0.5)',
+      marginBottom: '10%'
     },
-    button: {
-      color: 'black'
+    icon: {
+      color: 'pink',
+      fontSize: '75px',
+    },
+    flex: {
+      justifyContent: 'space-evenly'
     }
   }));
   

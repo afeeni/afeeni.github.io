@@ -10,20 +10,18 @@ import Link from '@material-ui/core/Link';
 
 export default function Home(){
 const classes = useStyles();
-const preventDefault = (event) => event.preventDefault();
 
 return(
     <div>
         <Grid container className={classes.mainDiv} spacing={0}>
             <Grid item xs={7} className={classes.flexItem}>
-                {/* <h1>WTFFFFFFFF</h1> */}
+                <h1 className={classes.title}>Afeeni Phillips</h1>
+                <h2 className={classes.subtitle}>Web & Brand Development</h2>
                 <div className={classes.introSubtext}>
-                <Typography > <FavoriteIcon /> Made with love and React (github link) </Typography>
+                <Typography> <FavoriteIcon /> Made with love and React </Typography>
                 <Typography>
-                <Link href="#" onClick={preventDefault}>
-                View GitHub
-  </Link>
-                    </Typography>
+                <Link href="https://github.com/aphillips24/Afeeni-Web" target="_blank"> View on GitHub </Link>
+                </Typography>
                 </div>
             </Grid>
             <Grid item xs={5} className={classes.flexItem}>
@@ -32,7 +30,6 @@ return(
 
         </Grid>
     </div>
-
 
         );
     }
