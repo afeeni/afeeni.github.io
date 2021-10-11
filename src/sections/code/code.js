@@ -21,7 +21,7 @@ export default function Code() {
     <div>
       <Wrapper>
         <div>
-    <Card className={classes.root}>
+    <Card className={classes.root} style={{boxShadow:"10px 10px 15px 5px #dcd0ff, -10px -10px 15px 5px pink"}}>
       <CardContent>
  <img src="https://inbeautycosmetics.com/wp-content/uploads/2020/06/inbeautynewpink.png" style={{height: '80px', width: '80px'}} />
       </CardContent>

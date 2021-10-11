@@ -26,7 +26,7 @@ return(
         <Grid container className={classes.mainDiv} spacing={0} style={{boxShadow:"10px 10px 15px 5px pink, -10px -10px 15px 5px #dcd0ff"}}>
             <Grid item xs={7} className={classes.flexItem}>
                 <h1 className={classes.title}>Afeeni Phillips</h1>
-                <h2 className={classes.subtitle}>Web & Brand Development</h2>
+                <h2 className={classes.subtitle}>Web Developer</h2>
                 <div className={classes.introSubtext}>
                 <Typography> <FavoriteIcon /> Made with love and React </Typography>
                 <Typography>

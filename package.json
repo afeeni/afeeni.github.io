@@ -9,6 +9,7 @@
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.6",
     "@testing-library/user-event": "^12.8.3",
+    "gh-pages": "^3.2.3",
     "primeicons": "^4.1.0",
     "primereact": "^6.3.1",
     "react": "^17.0.2",
@@ -40,6 +41,7 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-    ]
+    ],
+    "homepage": "https://https://aphillips24.github.io/"
   }
 }

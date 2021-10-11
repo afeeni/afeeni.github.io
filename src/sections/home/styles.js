@@ -30,7 +30,7 @@ const useStyles = makeStyles((theme) => ({
     },
     title:{
       fontSize: '70px',
-      marginTop: '25%',
+      marginTop: '22%',
       textAlign: 'center',
       fontFamily: 'IBM Plex Serif',
       fontWeight: 'bold'
