@@ -14,7 +14,7 @@ export default function Home(){
 const classes = useStyles();
 
 const Wrapper = styled.section`
-  padding: 160px 150px 5px;
+  padding: 9% 150px 5px;
   background: #FFF2DD;
 `;
 
@@ -22,7 +22,6 @@ return(
 
     <div classname={classes.sectionDiv}>
        <Wrapper> 
-        {/* <Box className={classes.box} boxShadow={20}> */}
         <Grid container className={classes.mainDiv} spacing={0} style={{boxShadow:"10px 10px 15px 5px pink, -10px -10px 15px 5px #dcd0ff"}}>
             <Grid item xs={7} className={classes.flexItem}>
                 <h1 className={classes.title}>Afeeni Phillips</h1>
@@ -30,7 +29,7 @@ return(
                 <div className={classes.introSubtext}>
                 <Typography> <FavoriteIcon /> Made with love and React </Typography>
                 <Typography>
-                <Link href="https://github.com/aphillips24/Afeeni-Web" target="_blank"> View on GitHub </Link>
+                <Link href="https://github.com/aphillips24/aphillips24.github.io" target="_blank"> View on GitHub </Link>
                 </Typography>
                 </div>
             </Grid>

@@ -3,7 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
     mainDiv: {
-      height: '625px',
+      height: '550px',
       marginBottom: '140px',
       backgroundColor: "#efe4d5",
       topMargin: '150px',
@@ -14,6 +14,10 @@ const useStyles = makeStyles((theme) => ({
       height: '100%',
       width: '100%',
       position: 'relative',
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+      flexDirection: 'column',
     },
     largePhoto: {
       height: '100%',
@@ -30,15 +34,18 @@ const useStyles = makeStyles((theme) => ({
     },
     title:{
       fontSize: '70px',
-      marginTop: '22%',
+      position: 'relative',
       textAlign: 'center',
       fontFamily: 'IBM Plex Serif',
-      fontWeight: 'bold'
+      fontWeight: 'bold',
+      width: '100%',
     },
     subtitle: {
       fontSize: '30px',
       textAlign: 'center',
-      fontFamily: 'IBM Plex Serif'
+      fontFamily: 'IBM Plex Serif',
+      position: 'relative',
+      width: '100%',
     },
   }));
 

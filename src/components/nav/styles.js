@@ -21,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
     },
     icon: {
       color: 'pink',
-      fontSize: '75px',
+      fontSize: '50px !important',
     },
     flex: {
       justifyContent: 'space-evenly'
