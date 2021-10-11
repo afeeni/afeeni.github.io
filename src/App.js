@@ -3,6 +3,7 @@ import ButtonAppBar from './components/nav/nav';
 import Home from './sections/home/home'
 import Code from './sections/code/code'
 import Divider from './components/divider/divider'
+import About from './sections/about/about';
 // import Cards from './components/cards/cards'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
              </header> 
         <Home className="home"></Home>
         <Divider></Divider>
+        <About></About>
         <Code></Code>
         {/* <Cards></Cards> */}
 

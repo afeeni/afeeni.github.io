@@ -39,6 +39,7 @@ const useStyles = makeStyles((theme) => ({
       fontFamily: 'IBM Plex Serif',
       fontWeight: 'bold',
       width: '100%',
+      marginTop: '0px',
     },
     subtitle: {
       fontSize: '30px',
@@ -46,6 +47,7 @@ const useStyles = makeStyles((theme) => ({
       fontFamily: 'IBM Plex Serif',
       position: 'relative',
       width: '100%',
+      marginTop: '-8%'
     },
   }));
 

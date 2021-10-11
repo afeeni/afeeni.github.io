@@ -13,7 +13,8 @@ export default function Code() {
 
   const Wrapper = styled.section`
   padding: 160px 150px 5px;
-  background: #d4ebf2;
+  background: pink;
+  opacity: 0.75;
 `;  
 
 

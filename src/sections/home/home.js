@@ -37,7 +37,6 @@ return(
                 <img className={classes.largePhoto} src={afeeniPhoto} alt="Me" /> 
             </Grid>
         </Grid>
-         {/* </Box> */}
          </Wrapper>
     </div>
 
