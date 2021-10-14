@@ -12,15 +12,15 @@ export default function Code() {
   const bull = <span className={classes.bullet}>•</span>;
 
   const Wrapper = styled.section`
-  padding: 160px 150px 5px;
-  background: pink;
-  opacity: 0.75;
+  padding: 40px 150px 140px;
+  background: #ffd0d6;
 `;  
 
 
   return (
     <div>
       <Wrapper>
+        <h1> Example Projects </h1>
         <div>
     <Card className={classes.root} style={{boxShadow:"10px 10px 15px 5px #dcd0ff, -10px -10px 15px 5px pink"}}>
       <CardContent>

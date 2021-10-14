@@ -1,3 +1,6 @@
+## Hi! Welcome to my personal website made with React! Made and designed by me to be a development portfolio. :)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

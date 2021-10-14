@@ -16,3 +16,8 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
 }
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
