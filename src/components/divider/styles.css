@@ -49,3 +49,57 @@
 .custom-shape-divider-bottom-1634192509 .shape-fill {
     fill: #FFD0D6;
 }
+
+
+.purpleDiv{
+    position: relative;
+}
+
+
+.custom-shape-divider-bottom-1634198833 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1634198833 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 77px;
+}
+
+.custom-shape-divider-bottom-1634198833 .shape-fill {
+    fill: #DCD0FF;
+}
+
+
+
+.greenDiv{
+    position: relative;
+}
+
+.custom-shape-divider-bottom-1634202400 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1634202400 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 77px;
+}
+
+.custom-shape-divider-bottom-1634202400 .shape-fill {
+    fill: #E0F8D1;
+}

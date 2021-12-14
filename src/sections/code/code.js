@@ -9,7 +9,7 @@ import styled from "styled-components";
 
 export default function Code() {
   const classes = useStyles();
-  const bull = <span className={classes.bullet}>•</span>;
+  ///const bull = <span className={classes.bullet}>•</span>;
 
   const Wrapper = styled.section`
   padding: 40px 150px 140px;
@@ -20,7 +20,7 @@ export default function Code() {
   return (
     <div>
       <Wrapper>
-        <h1> Example Projects </h1>
+        <h1> Projects </h1>
         <div>
     <Card className={classes.root} style={{boxShadow:"10px 10px 15px 5px #dcd0ff, -10px -10px 15px 5px pink"}}>
       <CardContent>

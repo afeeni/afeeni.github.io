@@ -2,9 +2,11 @@ import './App.css';
 import ButtonAppBar from './components/nav/nav';
 import Home from './sections/home/home'
 import Code from './sections/code/code'
-import {BlueDivider, PinkDivider} from './components/divider/divider'
+import {BlueDivider, PinkDivider, PurpleDivider, GreenDivider} from './components/divider/divider'
 import About from './sections/about/about';
-// import Cards from './components/cards/cards'
+import Resume from './sections/resume/resume';
+import Contact from './sections/contact/contact';
+
 
 function App() {
   return (
@@ -17,7 +19,10 @@ function App() {
         <About></About>
         <PinkDivider></PinkDivider>
         <Code></Code>
-        {/* <Cards></Cards> */}
+        <PurpleDivider></PurpleDivider>
+        <Resume></Resume>
+        <GreenDivider></GreenDivider>
+        <Contact></Contact>
 
 
     </div>
