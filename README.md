@@ -1,5 +1,12 @@
 ## Hi! Welcome to my personal website made with React! Made and designed by me to be a development portfolio. :)
 
+To do:
+- Responsiveness for mobile
+- Quick loading screen
+- complete contact form 
+- tests
+- custom scroll
+
 
 # Getting Started with Create React App
 

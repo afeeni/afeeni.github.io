@@ -21,6 +21,19 @@ const useStyles = makeStyles((theme) => ({
     pos: {
       marginBottom: 12,
     },
+    typ: {
+      fontSize: '12px',
+      textAlign: 'center'
+    },
+    flexItem: {
+      height: '100%',
+      width: '100%',
+      position: 'relative',
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+      flexDirection: 'column',
+    },
   
   }));
 

@@ -14,7 +14,7 @@ export default function Home(){
 const classes = useStyles();
 
 const Wrapper = styled.section`
-  padding: 9% 150px 5px;
+  padding: 1% 150px 5px;
   background: #FFF2DD;
 `;
 
