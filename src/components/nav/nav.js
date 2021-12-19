@@ -9,6 +9,7 @@ import EmailIcon from '@material-ui/icons/Email';
 import PersonIcon from '@material-ui/icons/Person';
 import CodeIcon from '@material-ui/icons/Code';
 import { Tooltip } from '@material-ui/core';
+import { HashLink as Link } from 'react-router-hash-link';
 
 
 export default function ButtonAppBar() {
@@ -27,24 +28,32 @@ export default function ButtonAppBar() {
       <AppBar position="static" className={classes.appBar}>
         <Toolbar className={classes.flex}>
           <Tooltip title="About Me">
+          <Link to="/#about">
           <IconButton className={classes.menuButton}>
           <PersonIcon className={classes.icon}/>
           </IconButton >
+          </Link>
           </Tooltip>
           <Tooltip title="Projects">
+          <Link to="/#code">
            <IconButton className={classes.menuButton}>
             <CodeIcon className={classes.icon}/>
           </IconButton>
+          </Link>
           </Tooltip>
           <Tooltip title="Resume">
+          <Link to="/#resume">
           <IconButton className={classes.menuButton}>
             <DescriptionIcon className={classes.icon}/>
           </IconButton>
+          </Link>
           </Tooltip>
           <Tooltip title="Contact Me">
+          <Link to="/#contact">
           <IconButton className={classes.menuButton}>
             <EmailIcon className={classes.icon}/>
           </IconButton> 
+          </Link>
           </Tooltip>
         </Toolbar>
       </AppBar>

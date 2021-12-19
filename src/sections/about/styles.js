@@ -10,7 +10,11 @@ const useStyles = makeStyles((theme) => ({
 
     },
     text: {
-      fontSize: '20px'
+      fontSize: '20px',
+      font: 'helvetica',
+      marginRight: '50px',
+      marginLeft: '50px',
+      textAlign:'justify'
     },
     bottomSpace: {
       marginBottom: "400px"

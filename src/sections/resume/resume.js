@@ -22,7 +22,7 @@ const Wrapper = styled.section`
 
     return(
 
-        <Wrapper>
+        <Wrapper id="resume">
         <h1>Resume</h1>
         <Button className={classes.download} href={resume} target="_blank" download><DownloadIcon></DownloadIcon>  Download </Button>
         </Wrapper>

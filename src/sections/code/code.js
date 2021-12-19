@@ -19,7 +19,7 @@ export default function Code() {
 
   return (
     <div>
-      <Wrapper>
+      <Wrapper id="code">
         <h1> Projects </h1>
         <div>
     <Card className={classes.root} style={{boxShadow:"10px 10px 15px 5px #dcd0ff, -10px -10px 15px 5px pink"}}>

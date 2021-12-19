@@ -1,7 +1,7 @@
 import React from "react";
 import useStyles from "./styles";
 import styled from "styled-components";
-
+import { HashLink, NavHashLink } from 'react-router-hash-link';
 
 
 export default function Contact(){
@@ -17,7 +17,7 @@ const Wrapper = styled.section`
 
     return(
 
-        <Wrapper>
+        <Wrapper id="contact">
         <h1>Contact Me</h1>
 
 

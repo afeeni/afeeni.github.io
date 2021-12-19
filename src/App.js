@@ -6,6 +6,7 @@ import {BlueDivider, PinkDivider, PurpleDivider, GreenDivider} from './component
 import About from './sections/about/about';
 import Resume from './sections/resume/resume';
 import Contact from './sections/contact/contact';
+import { Routes , Route, Redirect } from 'react-router-dom';
 
 
 function App() {
@@ -22,9 +23,13 @@ function App() {
         <PurpleDivider></PurpleDivider>
         <Resume></Resume>
         <GreenDivider></GreenDivider>
-        <Contact></Contact>
-
-
+        <Contact id="header2"></Contact>
+             <Routes>
+             <Route path='/#contact' element={<Contact />} />
+             <Route path='/#resume' element={<Resume />} />
+             <Route path='/#about' element={<About />} />
+             <Route path='/#code' element={<Code />} />
+        </Routes>
     </div>
   );
 }
