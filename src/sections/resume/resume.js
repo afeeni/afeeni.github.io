@@ -5,8 +5,8 @@ import DownloadIcon from '@mui/icons-material/Download';
 import { Link } from "@mui/material";
 import { Button } from "@mui/material";
 import resume from '../../images/AfeeniPhillipsResume.pdf'
-
-
+import { Document, Page, pdfjs } from "react-pdf";
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 
 
@@ -24,7 +24,15 @@ const Wrapper = styled.section`
 
         <Wrapper id="resume">
         <h1>Resume</h1>
-        <Button className={classes.download} href={resume} target="_blank" download><DownloadIcon></DownloadIcon>  Download </Button>
+        <div className={classes.download}>
+        <Document file={resume}>
+        <Page pageNumber={1} className={classes.pdf}/>
+        </Document>
+        </div>
+        < br />
+        <div className={classes.download}>
+        <Button  href={resume} target="_blank" download><DownloadIcon></DownloadIcon>  Download </Button>
+        </div>
         </Wrapper>
         
         

@@ -7,6 +7,8 @@ import About from './sections/about/about';
 import Resume from './sections/resume/resume';
 import Contact from './sections/contact/contact';
 import { Routes , Route, Redirect } from 'react-router-dom';
+import { Scrollbars } from 'react-custom-scrollbars';
+import CustomScrollbars from './components/scroll/scroll'
 
 
 function App() {
@@ -23,7 +25,7 @@ function App() {
         <PurpleDivider></PurpleDivider>
         <Resume></Resume>
         <GreenDivider></GreenDivider>
-        <Contact id="header2"></Contact>
+        <Contact></Contact>
              <Routes>
              <Route path='/#contact' element={<Contact />} />
              <Route path='/#resume' element={<Resume />} />

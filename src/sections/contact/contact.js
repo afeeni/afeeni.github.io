@@ -10,7 +10,7 @@ export default function Contact(){
 const classes = useStyles();
 
 const Wrapper = styled.section`
-  padding: 9% 150px 140px;
+  padding: 1% 150px 140px;
   background: #E0F8D1;
 `;
 
