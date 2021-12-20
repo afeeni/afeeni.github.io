@@ -10,6 +10,7 @@ To do:
 - custom scroll
 - change react icon
 - offset hashlinks
+- clean code
 
 
 # Getting Started with Create React App
