@@ -23,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
     },
     typ: {
       fontSize: '12px',
-      textAlign: 'center'
+      textAlign: 'center',
     },
     flexItem: {
       height: '100%',

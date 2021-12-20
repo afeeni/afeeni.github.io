@@ -1,11 +1,15 @@
 ## Hi! Welcome to my personal website made with React! Made and designed by me to be a development portfolio. :)
 
 To do:
+- home icon
+- update projects
 - Responsiveness for mobile
 - Quick loading screen
 - complete contact form 
 - tests
 - custom scroll
+- change react icon
+- offset hashlinks
 
 
 # Getting Started with Create React App

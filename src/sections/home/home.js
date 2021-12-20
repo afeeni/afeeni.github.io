@@ -14,7 +14,7 @@ export default function Home(){
 const classes = useStyles();
 
 const Wrapper = styled.section`
-  padding: 1% 150px 5px;
+  padding: 9% 150px 5px;
   background: #FFF2DD;
 `;
 
@@ -30,6 +30,9 @@ return(
                 <Typography> <FavoriteIcon /> Made with love and React </Typography>
                 <Typography>
                 <Link href="https://github.com/aphillips24/aphillips24.github.io" target="_blank"> View on GitHub </Link>
+                <Typography>
+                <Link href="https://www.linkedin.com/in/afeeniphillips/" target="_blank">LinkedIn</Link>
+                </Typography>
                 </Typography>
                 </div>
             </Grid>

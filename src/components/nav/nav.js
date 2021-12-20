@@ -28,28 +28,28 @@ export default function ButtonAppBar() {
       <AppBar position="static" className={classes.appBar}>
         <Toolbar className={classes.flex}>
           <Tooltip title="About Me">
-          <Link to="/#about">
+          <Link smooth to="/#about">
           <IconButton className={classes.menuButton}>
           <PersonIcon className={classes.icon}/>
           </IconButton >
           </Link>
           </Tooltip>
           <Tooltip title="Projects">
-          <Link to="/#code">
+          <Link smooth to="/#code">
            <IconButton className={classes.menuButton}>
             <CodeIcon className={classes.icon}/>
           </IconButton>
           </Link>
           </Tooltip>
           <Tooltip title="Resume">
-          <Link to="/#resume">
+          <Link smooth to="/#resume">
           <IconButton className={classes.menuButton}>
             <DescriptionIcon className={classes.icon}/>
           </IconButton>
           </Link>
           </Tooltip>
           <Tooltip title="Contact Me">
-          <Link to="/#contact">
+          <Link smooth to="/#contact">
           <IconButton className={classes.menuButton}>
             <EmailIcon className={classes.icon}/>
           </IconButton> 

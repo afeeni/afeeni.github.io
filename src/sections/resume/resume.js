@@ -15,7 +15,7 @@ export default function Resume(){
 const classes = useStyles();
 
 const Wrapper = styled.section`
-  padding: 1% 150px 140px;
+  padding: 1px 150px 140px;
   background: #dcd0ff;
 `;
 

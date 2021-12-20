@@ -23,15 +23,16 @@ export default function Code() {
 
   return (
     <div>
-      <Wrapper id="code">
+      <Wrapper>
         <h1> Projects </h1>
         <div>
         <Grid container spacing={2}>
         <Grid item xs={6} className={classes.flexItem}>
     <Card className={classes.root} style={{boxShadow:"10px 10px 15px 5px #dcd0ff, -10px -10px 15px 5px pink"}}>
       <CardContent>
- <img src="https://inbeautycosmetics.com/wp-content/uploads/2020/06/inbeautynewpink.png" style={{height: '150px', width: '250px'}} />
- <Typography className={classes.typ} >Made using WordPress</Typography>
+ <img src="https://inbeautycosmetics.com/wp-content/uploads/2020/06/inbeautynewpink.png" style={{height: '150px', width: '250px', paddingBottom: '12px'}} />
+ <Typography className={classes.typ}>E-Commerce Website</Typography>
+ <Typography className={classes.typ}>Made using WordPress</Typography>
       </CardContent>
       <CardActions>
         <Link href="https://inbeautycosmetics.com/" target="_blank">
@@ -43,8 +44,9 @@ export default function Code() {
 <Grid item xs={6} className={classes.flexItem}>
 <Card className={classes.root} style={{boxShadow:"10px 10px 15px 5px #dcd0ff, -10px -10px 15px 5px pink"}}>
       <CardContent>
- <img src={pers} style={{height: '150px', width: '250px'}} />
+ <img src={pers} style={{height: '150px', width: '250px', paddingBottom: '12px'}} />
  <Typography className={classes.typ}>Personal Website</Typography>
+ <Typography className={classes.typ}>Made using Wix</Typography>
       </CardContent>
       <CardActions>
         <Link href="https://www.afeeni.com/" target="_blank">
