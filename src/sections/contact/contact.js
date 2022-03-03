@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import useStyles from "./styles";
 import styled from "styled-components";
 import { HashLink, NavHashLink } from 'react-router-hash-link';
-
+import { TextField } from "@material-ui/core";
+import { Button } from "@mui/material";
 
 export default function Contact(){
 
@@ -44,20 +45,26 @@ const Wrapper = styled.section`
         <h1>Contact Me</h1>
 
 
-        <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit}>
       <div>
+      <TextField id="standard-basic" label="Name" variant="standard" className={classes.name}>
         <label htmlFor="name">Name:</label>
         <input type="text" id="name" required />
+       </TextField>
       </div>
       <div>
+      <TextField id="standard-basic" label="Email" variant="standard" className={classes.name}>
         <label htmlFor="email">Email:</label>
         <input type="email" id="email" required />
+        </TextField>
       </div>
       <div>
+      <TextField id="standard-multiline-static" label="Message" rows={4} variant="standard" multiline className={classes.message}>
         <label htmlFor="message">Message:</label>
         <textarea id="message" required />
+        </TextField>
       </div>
-      <button type="submit">{status}</button>
+      <Button  type="submit" className={classes.submit}> {status}</Button>
     </form>
 
         </Wrapper>
