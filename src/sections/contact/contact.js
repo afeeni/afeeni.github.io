@@ -67,6 +67,10 @@ const Wrapper = styled.section`
       <Button  type="submit" className={classes.submit}> {status}</Button>
     </form>
 
+    <p>Note: This website is hosted using GitHub Pages, which only hosts static content. Therefore, this contact section will not work as expected.
+      It is here for code demonstrating purposes only :) Please feel free to reach out to me using the email in my resume. Thank you.
+    </p>
+
         </Wrapper>
         
         

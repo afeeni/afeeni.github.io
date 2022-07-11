@@ -27,7 +27,7 @@ return(
                 <h1 className={classes.title}>Afeeni Phillips</h1>
                 <h2 className={classes.subtitle}>Web Developer</h2>
                 <div className={classes.introSubtext}>
-                <Typography> <FavoriteIcon /> Made with love and React </Typography>
+                <Typography> <FavoriteIcon /> Made with love and ReactJS </Typography>
                 <Typography>
                 <Link href="https://github.com/aphillips24/aphillips24.github.io" target="_blank"> View on GitHub </Link>
                 <Typography>
