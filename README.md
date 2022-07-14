@@ -8,9 +8,9 @@ To do:
 - complete contact form 
 - tests
 - custom scroll
-- change react icon
 - offset hashlinks
 - clean code
+- dark mode (showcases some react/redux skills) place a static button on the bottom right
 
 
 # Getting Started with Create React App

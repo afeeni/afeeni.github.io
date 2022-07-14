@@ -4,7 +4,7 @@ import styled from "styled-components";
 import DownloadIcon from '@mui/icons-material/Download';
 import { Link } from "@mui/material";
 import { Button } from "@mui/material";
-import resume from '../../images/AfeeniPhillipsResume.pdf'
+import resume from '../../images/AfeeniWebResume.pdf'
 import { Document, Page, pdfjs } from "react-pdf";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
