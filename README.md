@@ -2,7 +2,7 @@
 
 To do:
 - home icon
-- update projects
+- update projects (add piwg)
 - Responsiveness for mobile
 - Quick loading screen
 - complete contact form 
@@ -11,6 +11,7 @@ To do:
 - offset hashlinks
 - clean code
 - dark mode (showcases some react/redux skills) place a static button on the bottom right
+have to change the styles components as well
 
 
 # Getting Started with Create React App

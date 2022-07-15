@@ -2,6 +2,7 @@ import './App.css';
 import ButtonAppBar from './components/nav/nav';
 import Home from './sections/home/home'
 import Code from './sections/code/code'
+import Dark from './components/darkButton/Dark'
 import {BlueDivider, PinkDivider, PurpleDivider, GreenDivider} from './components/divider/divider'
 import About from './sections/about/about';
 import Resume from './sections/resume/resume';
@@ -26,6 +27,7 @@ function App() {
         <Resume></Resume>
         <GreenDivider></GreenDivider>
         <Contact></Contact>
+        <Dark></Dark>
           <Routes>
              <Route path='/#home' element={<Home />} />  
              <Route path='/#contact' element={<Contact />} />
