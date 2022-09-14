@@ -22,6 +22,8 @@ return(
 
     <div classname={classes.sectionDiv}>
        <Wrapper> 
+        {/* <h1> Under construction! Sorry for the mess! </h1>
+        <h3> But feel free to look around :) </h3> */}
         <Grid container className={classes.mainDiv} spacing={0} style={{boxShadow:"10px 10px 15px 5px pink, -10px -10px 15px 5px #dcd0ff"}}>
             <Grid item xs={7} className={classes.flexItem}>
                 <h1 className={classes.title}>Afeeni Phillips</h1>

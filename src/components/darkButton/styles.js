@@ -3,9 +3,11 @@ import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
 
-dark: {
-
-    fontSize: '300px'
+button: {
+    float: 'right',
+    marginRight: '50px',
+    marginTop: '60%',
+    position: 'right'
 },
 
 buttonText: {

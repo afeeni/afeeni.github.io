@@ -17,7 +17,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <ButtonAppBar></ButtonAppBar>
-      </header> 
+      </header>
+      <span>
+      {/* <Dark></Dark> */}
+    </span>
         <Home className="home"></Home>
         <BlueDivider></BlueDivider>
         <About></About>
@@ -27,7 +30,7 @@ function App() {
         <Resume></Resume>
         <GreenDivider></GreenDivider>
         <Contact></Contact>
-        <Dark></Dark>
+        
           <Routes>
              <Route path='/#home' element={<Home />} />  
              <Route path='/#contact' element={<Contact />} />
@@ -35,7 +38,10 @@ function App() {
              <Route path='/#about' element={<About />} />
              <Route path='/#code' element={<Code />} />
           </Routes>
-    </div>
+
+
+</div>
+
   );
 }
 

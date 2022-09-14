@@ -66,7 +66,7 @@ const MaterialUISwitch = styled(Switch)(({ theme }) => ({
 
 return(
 
-    <div>
+    <div className={classes.button}>
         <MaterialUISwitch></MaterialUISwitch>
         <span className={classes.buttonText}> Change modes</span>
     </div>
