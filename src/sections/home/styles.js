@@ -47,7 +47,7 @@ const useStyles = makeStyles((theme) => ({
       fontFamily: 'IBM Plex Serif',
       position: 'relative',
       width: '100%',
-      marginTop: '-8%'
+      marginTop: '-2px'
     },
   }));
 
