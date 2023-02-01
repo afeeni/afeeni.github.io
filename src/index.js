@@ -5,18 +5,25 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from "react-router-dom";
 import smoothscroll from 'smoothscroll-polyfill';
-import ThemeContextWrapper from './theme/themeWrapper';
 
 smoothscroll.polyfill(); 
 
+
+const t0 = performance.now();
+
+function renderCallback(e) {
+  console.log("Rendering done", e);
+  const t1 = performance.now();
+
+  console.log(`Mount took ~${(t1 - t0) / 1000} seconds.`);
+}
+
 ReactDOM.render(
-  <ThemeContextWrapper>
   <React.StrictMode>
     <BrowserRouter>
       <App />
     </BrowserRouter>
-  </React.StrictMode>{' '}
-  </ThemeContextWrapper>,
+  </React.StrictMode>,
   document.getElementById('root')
 );
 
