@@ -26,13 +26,12 @@ const Wrapper = styled.section`
         <h1>Resume</h1>
         <div className={classes.download}>
         <Document file={resume}>
-          <h3> Resume will be back up shortly </h3>
         <Page pageNumber={1} className={classes.pdf}/>
         </Document>
         </div>
         < br />
         <div className={classes.download}>
-        <Button  href={resume} target="_blank" download><DownloadIcon></DownloadIcon>  Download </Button>
+        <Button href={resume} target="_blank" download><DownloadIcon></DownloadIcon>  Download </Button>
         </div>
         </Wrapper>
         
