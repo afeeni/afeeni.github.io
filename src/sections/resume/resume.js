@@ -4,7 +4,7 @@ import styled from "styled-components";
 import DownloadIcon from '@mui/icons-material/Download';
 import { Link } from "@mui/material";
 import { Button } from "@mui/material";
-// import resume from '../../images/AfeeniWebResume.pdf'
+import resume from '../../images/AfeeniPhillipsWebResume.pdf'
 import { Document, Page, pdfjs } from "react-pdf";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
@@ -24,16 +24,16 @@ const Wrapper = styled.section`
 
         <Wrapper id="resume">
         <h1>Resume</h1>
-        {/* <div className={classes.download}> */}
-        {/* <Document file={resume}> */}
+        <div className={classes.download}>
+        <Document file={resume}>
           <h3> Resume will be back up shortly </h3>
-        {/* <Page pageNumber={1} className={classes.pdf}/> */}
-        {/* </Document> */}
-        {/* </div>
+        <Page pageNumber={1} className={classes.pdf}/>
+        </Document>
+        </div>
         < br />
-        <div className={classes.download}> */}
-        {/* <Button  href={resume} target="_blank" download><DownloadIcon></DownloadIcon>  Download </Button> */}
-        {/* </div> */}
+        <div className={classes.download}>
+        <Button  href={resume} target="_blank" download><DownloadIcon></DownloadIcon>  Download </Button>
+        </div>
         </Wrapper>
         
         
