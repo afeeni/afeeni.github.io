@@ -30,9 +30,9 @@ return(
                 <div className={classes.introSubtext}>
                 <Typography> <FavoriteIcon /> Made with love and ReactJS </Typography>
                 <Typography>
-                <Link href="https://github.com/aphillips24/aphillips24.github.io" target="_blank"> View on GitHub </Link>
+                <Link href="https://github.com/afeeni/afeeni.github.io" target="_blank"> View on GitHub </Link>
                 <Typography>
-                <Link href="https://www.linkedin.com/in/afeeniphillips/" target="_blank">LinkedIn</Link>
+                <Link href="https://www.linkedin.com/in/afeeni/" target="_blank">LinkedIn</Link>
                 </Typography>
                 </Typography>
                 </div>
