@@ -26,7 +26,9 @@ export default function Code() {
       <Wrapper>
         <h1> Projects </h1>
         <div>
-        <Grid container spacing={2}>
+
+          <h2> Under Construction :)</h2>
+        {/* <Grid container spacing={2}>
         <Grid item xs={6} className={classes.flexItem}>
     <Card className={classes.root} style={{boxShadow:"10px 10px 15px 5px #dcd0ff, -10px -10px 15px 5px pink"}}>
       <CardContent>
@@ -55,7 +57,7 @@ export default function Code() {
       </CardActions>
     </Card>
 </Grid>
-</Grid>
+</Grid> */}
     </div>
     
     </Wrapper>
