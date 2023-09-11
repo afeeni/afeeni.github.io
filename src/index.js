@@ -17,6 +17,7 @@ function renderCallback(e) {
 
   console.log(`Mount took ~${(t1 - t0) / 1000} seconds.`);
 }
+//test
 
 ReactDOM.render(
   <React.StrictMode>
