@@ -5,10 +5,10 @@ import { createTheme } from "@mui/material";
 export default function theme(){
 
 const theme = createTheme({
-    status: {
-      danger: orange[500],
-    },
+    palette: {
+      primary: {
+        main: '#',
+      }
+    }
   });
-  
-
 }
