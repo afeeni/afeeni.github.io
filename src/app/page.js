@@ -1,17 +1,14 @@
-// import MyApp from '../pages/_app'
 import { Fragment } from "react";
-import Gallery from "../components/simple/simple";
-import Home from "./home/page";
+import Home2 from "./home/page";
 
-function index(){
+function Home(){
 
 return(
     <Fragment>
-{/* /// <Gallery></Gallery> */}
-<Home></Home>
+<Home2></Home2>
 </Fragment>
 );
 }
 
 
-export default index;
+export default Home
