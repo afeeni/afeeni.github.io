@@ -28,8 +28,8 @@ const Home2 = () => {
 <NoSsr>
 <div classname={classes.sectionDiv}>
        <Wrapper> 
-<Grid container className={classes.mainDiv} spacing={0} style={{boxShadow:"10px 10px 15px 5px pink, -10px -10px 15px 5px #dcd0ff"}}>
-            <Grid className={classes.flexItem}>
+<Grid className={classes.mainDiv} spacing={0} style={{boxShadow:"10px 10px 15px 5px pink, -10px -10px 15px 5px #dcd0ff"}}>
+            <Grid className={classes.flexItem} >
                 <h1 className={classes.title}>Afeeni Phillips</h1>
                 <h2 className={classes.subtitle}>Web Developer</h2>
                 <h2 className={classes.subtitle}>Technical Solutions</h2>
@@ -37,13 +37,13 @@ const Home2 = () => {
                 <Typography> <FavoriteIcon /> Made with love and ReactJS</Typography>
                 <Typography>View On Github</Typography>
                 <Typography>LinkedIn</Typography>
-                
-                </div>
+            </div>
             </Grid>
             <Grid className={classes.flexItem}>
                 <Image className={classes.largePhoto} src={afeeniPhoto} alt="Me" /> 
             </Grid>
             </Grid>
+
             </Wrapper>
     </div>
                 </NoSsr>

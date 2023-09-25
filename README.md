@@ -1,17 +1,13 @@
 ## Hi! Welcome to my personal website made with React! Made and designed by me to be a development portfolio. :)
 
 To do:
-- home icon
-- update projects (add piwg)
-- Responsiveness for mobile
-- Quick loading screen
+- update all pages using Next
+- update projects
+- Responsiveness
 - complete contact form 
 - tests
 - custom scroll
-- offset hashlinks
-- clean code
-- dark mode (showcases some react/redux skills) place a static button on the bottom right
-have to change the styles components as well
+- dark mode
 
 
 # Getting Started with Create React App
