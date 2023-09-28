@@ -1,8 +1,10 @@
-import { makeStyles } from '@material-ui/core/styles';
+import { makeStyles } from '@mui/styles';
 
-
-const useStyles = makeStyles((theme) => ({
-    
+const useStyles = makeStyles ({
+    sectionDiv: { 
+      padding: '9% 150px 5px',
+      background: '#FFF2DD',
+    },
     mainDiv: {
       height: '550px',
       marginBottom: '140px',
@@ -58,6 +60,6 @@ const useStyles = makeStyles((theme) => ({
       transform: 'translate(-50%, -50%)',
 
     },
-  }));
+  });
 
   export default useStyles;
