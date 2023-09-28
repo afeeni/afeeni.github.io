@@ -1,16 +1,13 @@
 "use client";
 
 import FavoriteIcon from '@mui/icons-material/Favorite';
-import Grid from '@mui/material/Typography';
+import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
-// import classes from './styles.module.css'
 import { NoSsr } from '@mui/base/NoSsr';
 import useStyles from './styles';
 import styled from "styled-components";
 import afeeniPhoto from '../../images/image00024.jpeg';
 import Image from 'next/image'
-
-//'../../images/image00024.jpeg';
 
 
 const Wrapper = styled.section`
@@ -19,34 +16,35 @@ const Wrapper = styled.section`
 `;
 
 
-
 const Home2 = () => {
     const classes = useStyles();
     return (
-    
-/// materialUI styling causes the errors 
-<NoSsr>
-<div classname={classes.sectionDiv}>
-       <Wrapper> 
-<Grid className={classes.mainDiv} spacing={0} style={{boxShadow:"10px 10px 15px 5px pink, -10px -10px 15px 5px #dcd0ff"}}>
-            <Grid className={classes.flexItem} >
-                <h1 className={classes.title}>Afeeni Phillips</h1>
-                <h2 className={classes.subtitle}>Web Developer</h2>
-                <h2 className={classes.subtitle}>Technical Solutions</h2>
-                <div className={classes.introSubtext}>
-                <Typography> <FavoriteIcon /> Made with love and ReactJS</Typography>
-                <Typography>View On Github</Typography>
-                <Typography>LinkedIn</Typography>
-            </div>
-            </Grid>
-            <Grid className={classes.flexItem}>
-                <Image className={classes.largePhoto} src={afeeniPhoto} alt="Me" /> 
-            </Grid>
-            </Grid>
 
-            </Wrapper>
+
+<NoSsr>
+    <div classname={classes.sectionDiv}>
+       <Wrapper> 
+            <Grid container spacing={0} className={classes.mainDiv}>
+                <Grid item xs={7} className={classes.flexItem}>
+                    <div className={classes.center}>
+                    <h1 className={classes.title}>Afeeni Phillips</h1>
+                    <h2 className={classes.subtitle}>Web Developer</h2>
+                    <h2 className={classes.subtitle}>Technical Solutions</h2>
+                    </div>
+                        <div className={classes.introSubtext}>
+                            <Typography> <FavoriteIcon /> Made with love and ReactJS</Typography>
+                            <Typography>View On Github</Typography>
+                            <Typography>LinkedIn</Typography>
+                        </div>
+                </Grid>
+                <Grid item xs={5} className={classes.flexItem}>
+                    <Image className={classes.largePhoto} src={afeeniPhoto} alt="Me" /> 
+                </Grid>
+            </Grid>
+        </Wrapper>
     </div>
-                </NoSsr>
+</NoSsr>
+
     );
 }
  
