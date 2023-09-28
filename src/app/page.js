@@ -1,16 +1,22 @@
+'use client'
 import { Fragment } from "react";
-import Home2 from "./home/page";
-import Nav from '../components/nav/nav';
+import Home from "./home/page";
+import Gallery from "@/components/simple/simple";
+import ButtonAppBar from '../components/nav/nav';
+import { NoSsr } from "@mui/material";
 
-function Home(){
+function App(){
 
 return(
     <Fragment>
-<Home2></Home2>
+        <NoSsr>
+            <ButtonAppBar></ButtonAppBar>
+            <Home></Home>
+        </NoSsr>
+    </Fragment>
 
-</Fragment>
 );
 }
 
 
-export default Home
+export default App

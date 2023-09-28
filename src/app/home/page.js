@@ -1,18 +1,13 @@
-'use client'
-
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
-import { NoSsr } from '@mui/base/NoSsr';
 import useStyles from './styles';
-import styled from "styled-components";
 import afeeniPhoto from '../../images/image00024.jpeg';
 import Image from 'next/image'
 
-const Home2 = () => {
+const Home = () => {
     const classes = useStyles();
         return (
-            <NoSsr>
                 <div className={classes.sectionDiv}>
                         <Grid container spacing={0} className={classes.mainDiv}>
                             <Grid item xs={7} className={classes.flexItem}>
@@ -22,7 +17,7 @@ const Home2 = () => {
                                 <h2 className={classes.subtitle}>Technical Solutions</h2>
                                 </div>
                                     <div className={classes.introSubtext}>
-                                        <Typography> <FavoriteIcon /> Made with love and ReactJS</Typography>
+                                        <Typography> Made with ReactJS, Next.js, MUI, and love <FavoriteIcon /></Typography>
                                         <Typography>View On Github</Typography>
                                         <Typography>LinkedIn</Typography>
                                     </div>
@@ -32,8 +27,7 @@ const Home2 = () => {
                             </Grid>
                         </Grid>
                 </div>
-            </NoSsr>
     );
 }
  
-export default Home2
+export default Home

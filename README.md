@@ -2,6 +2,7 @@
 
 To do:
 - update all pages using Next
+- Change from JSS to Emotion // theme
 - update projects
 - Responsiveness
 - complete contact form 

@@ -1,8 +1,7 @@
-import { makeStyles } from '@material-ui/core/styles';
+import { makeStyles } from '@mui/styles';
 
-
-const useStyles = makeStyles((theme) => ({
-    root: {
+const useStyles = makeStyles({
+    nav: {
       flexGrow: 1,
       position: 'fixed',
       top: 0,
@@ -11,22 +10,23 @@ const useStyles = makeStyles((theme) => ({
       zIndex: 1,
     },
     menuButton: {
-      marginRight: theme.spacing(2),
+      // marginRight: theme.spacing(2), // add theme spacing
       color: 'pink',
       fontSize: '500px'
     },
     appBar: {
-      backgroundColor: 'rgba(0,0,0, 0.5)',
-      marginBottom: '10%'
+      marginBottom: '10%',
+      backgroundColor: 'rgba(0,0,0, 0.5) !important' // work to remove important tag
     },
     icon: {
       color: 'pink',
       fontSize: '50px !important',
     },
     flex: {
-      justifyContent: 'space-evenly'
+      justifyContent: 'space-evenly',
+      
     }
-  }));
+  });
   
 
 export default useStyles;

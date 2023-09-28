@@ -1,27 +1,26 @@
 'use client'
-import React from 'react';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import IconButton from '@material-ui/core/IconButton';
+
+import AppBar from '@mui/material/AppBar';
+import Toolbar from '@mui/material/Toolbar';
+import IconButton from '@mui/material/IconButton';
 import useStyles from './styles';
-import DescriptionIcon from '@material-ui/icons/Description';
-import EmailIcon from '@material-ui/icons/Email';
-import PersonIcon from '@material-ui/icons/Person';
-import CodeIcon from '@material-ui/icons/Code';
-import HomeIcon from '@material-ui/icons/Home';
-import { NoSsr, Tooltip } from '@material-ui/core';
+import DescriptionIcon from '@mui/icons-material/Description';
+import EmailIcon from '@mui/icons-material/Email';
+import PersonIcon from '@mui/icons-material/Person';
+import CodeIcon from '@mui/icons-material/Code';
+import HomeIcon from '@mui/icons-material/Home';
+import { NoSsr, Tooltip, Box } from '@mui/material';
 // import { HashLink as Link } from 'react-router-hash-link';
 
 
-export default function ButtonAppBar() {
+const ButtonAppBar = () => {
   const classes = useStyles();
 
   return (
-    <NoSsr>
-    <div className={classes.root}>
-      <AppBar position="static" className={classes.appBar}>
-        <Toolbar className={classes.flex}>
-        <Tooltip title="Home">
+    <div className={classes.nav}>
+      <AppBar position="static" className={classes.appBar} >
+       <Toolbar className={classes.flex}>
+      {/*    <Tooltip title="Home"> */}
           {/* <Link smooth to="/#home">
           <IconButton className={classes.menuButton}>
           <HomeIcon className={classes.icon}/>
@@ -55,10 +54,11 @@ export default function ButtonAppBar() {
             <EmailIcon className={classes.icon}/>
           </IconButton> 
           </Link> */}
-          </Tooltip>
-        </Toolbar>
+          {/* </Tooltip>*/}
+        </Toolbar> 
       </AppBar>
     </div>
-    </NoSsr>
   );
 }
+
+export default ButtonAppBar;

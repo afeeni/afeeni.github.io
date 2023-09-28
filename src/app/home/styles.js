@@ -4,6 +4,7 @@ const useStyles = makeStyles ({
     sectionDiv: { 
       padding: '9% 150px 5px',
       background: '#FFF2DD',
+      flexGrow: 1,
     },
     mainDiv: {
       height: '550px',
