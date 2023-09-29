@@ -10,7 +10,9 @@ import PersonIcon from '@mui/icons-material/Person';
 import CodeIcon from '@mui/icons-material/Code';
 import HomeIcon from '@mui/icons-material/Home';
 import { NoSsr, Tooltip, Box } from '@mui/material';
-// import { HashLink as Link } from 'react-router-hash-link';
+import Link from 'next/link';
+
+// add smooth scroll effect
 
 
 const ButtonAppBar = () => {
@@ -20,41 +22,41 @@ const ButtonAppBar = () => {
     <div className={classes.nav}>
       <AppBar position="static" className={classes.appBar} >
        <Toolbar className={classes.flex}>
-      {/*    <Tooltip title="Home"> */}
-          {/* <Link smooth to="/#home">
+          <Tooltip title="Home">
+          <Link href="/#home">
           <IconButton className={classes.menuButton}>
           <HomeIcon className={classes.icon}/>
           </IconButton >
           </Link>
           </Tooltip>
           <Tooltip title="About Me">
-          <Link smooth to="/#about">
+          <Link href="/#about">
           <IconButton className={classes.menuButton}>
           <PersonIcon className={classes.icon}/>
           </IconButton >
           </Link>
           </Tooltip>
           <Tooltip title="Projects">
-          <Link smooth to="/#code">
+          <Link href="/#code">
            <IconButton className={classes.menuButton}>
             <CodeIcon className={classes.icon}/>
           </IconButton>
           </Link>
           </Tooltip>
           <Tooltip title="Resume">
-          <Link smooth to="/#resume">
+          <Link href="/#resume">
           <IconButton className={classes.menuButton}>
             <DescriptionIcon className={classes.icon}/>
           </IconButton>
           </Link>
           </Tooltip>
           <Tooltip title="Contact Me">
-          <Link smooth to="/#contact">
+          <Link href="/#contact">
           <IconButton className={classes.menuButton}>
             <EmailIcon className={classes.icon}/>
           </IconButton> 
-          </Link> */}
-          {/* </Tooltip>*/}
+          </Link> 
+           </Tooltip>
         </Toolbar> 
       </AppBar>
     </div>

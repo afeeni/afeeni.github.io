@@ -16,7 +16,7 @@ const useStyles = makeStyles({
     },
     appBar: {
       marginBottom: '10%',
-      backgroundColor: 'rgba(0,0,0, 0.5) !important' // work to remove important tag
+      backgroundColor: 'rgba(0,0,0, 0.5) !important' // work to remove important tag (override mui5 themeing)
     },
     icon: {
       color: 'pink',
