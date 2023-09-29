@@ -1,10 +1,10 @@
 ## Hi! Welcome to my personal website made with React! Made and designed by me to be a development portfolio. :)
 
 To do:
-- update all pages using Next
-- Change from JSS to Emotion // theme
 - update projects
 - Responsiveness
+- frame/motion/animation
+- Change from JSS to Emotion // theme
 - complete contact form 
 - tests
 - custom scroll
