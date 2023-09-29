@@ -42,6 +42,7 @@ const useStyles = makeStyles ({
       fontFamily: 'IBM Plex Serif',
       fontWeight: 'bold',
       width: '100%',
+
     },
     subtitle: {
       fontSize: '30px',
@@ -49,7 +50,6 @@ const useStyles = makeStyles ({
       fontFamily: 'IBM Plex Serif',
       position: 'relative',
       width: '100%',
-      //marginTop: '-20px'
     },
     center:{ 
       width: '100%',
@@ -59,8 +59,14 @@ const useStyles = makeStyles ({
       margin: '0',
       msTransform: 'translate(-50%, -50%)',
       transform: 'translate(-50%, -50%)',
-
     },
+    '@global': {
+    FavoriteIcon: {
+      marginTop: '25px',
+      position: 'relative',
+      size: '3000px'
+    }
+    }
   });
 
   export default useStyles;

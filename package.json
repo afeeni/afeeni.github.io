@@ -67,5 +67,8 @@
       "last 1 safari version"
     ],
     "homepage": "https://afeeni.github.io/"
+  },
+  "devDependencies": {
+    "file-loader": "^6.2.0"
   }
 }

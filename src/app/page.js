@@ -14,15 +14,15 @@ return(
     <Fragment>
         <NoSsr>
             <ButtonAppBar></ButtonAppBar>
-            <Home></Home>
+                <Home></Home>
             <BlueDivider></BlueDivider>
-            <About></About>
-        <PinkDivider></PinkDivider>
-        {/* <Code></Code> */}
-        <PurpleDivider></PurpleDivider>
-        <Resume></Resume>
-        <GreenDivider></GreenDivider>
-        {/* <Contact></Contact> */}
+                <About></About>
+            <PinkDivider></PinkDivider>
+            {/* <Code></Code> */}
+            <PurpleDivider></PurpleDivider>
+                <Resume></Resume>
+            <GreenDivider></GreenDivider>
+                {/* <Contact></Contact> */}
         </NoSsr>
     </Fragment>
 
