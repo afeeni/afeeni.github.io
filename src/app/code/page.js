@@ -6,9 +6,9 @@ import Button from '@mui/material/Button';
 import Link from 'next/link';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
-import { Container, Col, Row } from 'react-bootstrap';
 
 export default function Code() {
+
   const classes = useStyles();
   const pers = '/images/af-pers.png';
 

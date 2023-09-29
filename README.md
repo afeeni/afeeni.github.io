@@ -3,7 +3,8 @@
 To do:
 - update projects
 - Responsiveness
-- frame/motion/animation
+- fix hashlinks
+- font changes
 - Change from JSS to Emotion // theme
 - complete contact form 
 - tests

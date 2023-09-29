@@ -4,8 +4,9 @@ import styled from "styled-components";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
 
-export default function Contact(){
 
+
+export default function Contact(){
 
 const classes = useStyles();
 
@@ -67,8 +68,5 @@ const classes = useStyles();
 
 </div>
         
-        
         );
-
-
 }

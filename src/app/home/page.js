@@ -11,25 +11,27 @@ const Home = () => {
                 <div className={classes.sectionDiv}>
                         <Grid container spacing={0} className={classes.mainDiv}>
                             <Grid item xs={7} className={classes.flexItem}>
-                            
                                 <div className={classes.center}>
-                                <motion.div initial="hidden" animate="visible" variants={{
-  hidden: {
-    scale: .1,
-    opacity: 0
-  },
-  visible: {
-    scale: [1, 2, 1.5, 1],
-    opacity: 1,
-    color: ['#000000', '#ff80ed', '#000000'],
-    transition: {
-      delay: .3,
-      duration: 5
-    },
-  },
-}}>
+                                    <motion.div initial="hidden" animate="visible" variants={{
+                                        hidden: {
+                                            scale: .1,
+                                            opacity: 1,
+                                        },
+                                        visible: {
+                                            scale: [1, 1.4, 1.2, 1],
+                                            opacity: 1,
+                                            color: ['#000000', '#ff80ed', '#000000'],
+                                            repeat: 3,
+                                            transition: {
+                                            delay: .5,
+                                            duration: 5,
+                                            times: [0, 0.20, 0.95, 1],
+                                            repeat: Infinity,
+                                            },
+                                        },
+                                        }}>
                                 <h1 className={classes.title}>Afeeni Phillips</h1>
-                                </motion.div>
+                                    </motion.div>
                                 <h2 className={classes.subtitle}>Web Developer</h2>
                                 <h2 className={classes.subtitle}>Technical Solutions</h2>
                                 </div>
